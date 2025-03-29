@@ -1,4 +1,7 @@
 *.png
 *.jpg
 *.bmp
+# !raw_data_p1-7_pictures/**/*.bmp
+!cropped_binary_resized_mirror_minisize/**/*.bmp
 *.rar
+!6层9道直焊仿真截面图/**/*
