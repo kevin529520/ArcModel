@@ -25,7 +25,7 @@
 ## Directory Structure
 
 ```
-curve_fitting_slope/
+ArcModel/
 ├── cropped_binary_resized_mirror/
 │   ├── cropped_binary_resized_mirror_p1/
 │   ├── cropped_binary_resized_mirror_p2/
@@ -46,6 +46,8 @@ curve_fitting_slope/
 - **p2-7_extracted_cropped_binary**: 对 `cropped_binary_resized_mirror` 中不同焊道数据相减，得到单个焊道像素（焊道2 3 4 5 6 7）。
 - **fitted_extraceed**: 对 `p2-7_extracted_cropped_binary` 的单个焊道数据拟合，得到拟合圆的位置、半径(像素位置)。
 - **classify**: 不同x位置下的截面图片。
+- **6层9道直焊仿真截面图**: 原始图片、拟合图片、拟合代码等。
+
 
 ## Program
 
